@@ -1,0 +1,16 @@
+﻿<Application x:Class="BOWeb.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BOWeb"
+             StartupUri="Page1.xaml">
+    <Application.Resources>
+        <local:MenuItems x:Key="MainMenu">
+            <local:MenuItem MenuText="Home" Icon="Icons/CrystalHome.png" />
+            <local:MenuItem MenuText="Calendar" Icon="Icons/CrystalDate.png" />
+            <local:MenuItem MenuText="Email" Icon="Icons/email3.png" InstanceCount="3" />
+            <local:MenuItem MenuText="Design" Icon="Icons/Services.png" />
+            <local:MenuItem MenuText="Options" Icon="Icons/Samples.png" InstanceCount="2" />
+            <local:MenuItem MenuText="Information" Icon="Icons/CrystalInfo.png" />
+        </local:MenuItems>
+    </Application.Resources>
+</Application>
